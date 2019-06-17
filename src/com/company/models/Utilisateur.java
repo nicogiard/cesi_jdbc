@@ -10,4 +10,13 @@ public class Utilisateur {
 
     public String email;
 
+    @Override
+    public String toString() {
+        return "Utilisateur{" +
+                "id=" + id +
+                ", nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
